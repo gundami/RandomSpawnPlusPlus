@@ -1,0 +1,5 @@
+net\gundami\randomspawnplusplus\spawn\findSpawn.class
+net\gundami\randomspawnplusplus\event\onDeath.class
+net\gundami\randomspawnplusplus\RandomSpawnPlusPlus.class
+net\gundami\randomspawnplusplus\conifg\ConfigFile.class
+net\gundami\randomspawnplusplus\event\onJoin.class
