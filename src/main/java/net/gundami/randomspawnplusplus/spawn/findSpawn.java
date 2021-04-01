@@ -10,6 +10,7 @@ import org.bukkit.configuration.file.FileConfiguration;
 
 
 import java.util.*;
+import java.util.concurrent.ThreadLocalRandom;
 
 public class findSpawn {
     private RandomSpawnPlusPlus plugin;
@@ -46,8 +47,8 @@ public class findSpawn {
     }
     private int[] randomPoint(){
         int[] location = new int[5];
-        location[0]=new Random().nextInt(maxX-minX);
-        location[1]=new Random().nextInt(maxZ-minZ);
+        location[0]= ThreadLocalRandom.current().nextInt(minX, maxX);
+        location[1]=ThreadLocalRandom.current().nextInt(minZ, maxZ);
         return location;
 
     }

@@ -1,4 +1,7 @@
 name: RandomSpawnPlusPlus
 main: net.gundami.randomspawnplusplus.RandomSpawnPlusPlus
-version: 0.0.1-SNAPSHOT
+version: 0.0.1alpha
 depend: [Essentials]
+commands:
+  rspp:
+    description: RandomSpawnPlusPlus

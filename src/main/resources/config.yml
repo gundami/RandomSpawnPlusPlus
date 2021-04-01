@@ -13,3 +13,4 @@ prevent-water: true
 prevent-lava: true
 on-first-join: true
 sethome-at-rtp: true
+respawn-at-home: true

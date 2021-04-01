@@ -25,6 +25,7 @@ public class RandomSpawnPlusPlus extends JavaPlugin {
     }
     public void registerEvents() {
         getServer().getPluginManager().registerEvents(new onJoin(this),this);
+        getServer().getPluginCommand("rspp").setExecutor(new onCommand(this));
 
 
     }
