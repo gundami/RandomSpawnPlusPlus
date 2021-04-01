@@ -58,7 +58,7 @@ public class findSpawn {
         while(!valid){
             int[] locationXZ=randomPoint();
             if(!unsafeBlocks.contains(wd.getHighestBlockAt(locationXZ[0], locationXZ[1]).getType()) && !excludedBiomes.contains(wd.getBiome(locationXZ[0], locationXZ[1]))){
-                this.spawnLocation = new Location(wd, locationXZ[0], wd.getHighestBlockYAt(locationXZ[0], locationXZ[1]),locationXZ[1]);
+                this.spawnLocation = new Location(wd, locationXZ[0], wd.getHighestBlockYAt(locationXZ[0], locationXZ[1])+1,locationXZ[1]);
                 valid=true;
 
             }
