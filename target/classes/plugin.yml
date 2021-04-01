@@ -1,4 +1,0 @@
-name: RandomSpawnPlusPlus
-main: net.gundami.randomspawnplusplus.RandomSpawnPlusPlus
-version: 0.0.1-SNAPSHOT
-depend: [Essentials]
